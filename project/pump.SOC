@@ -1,0 +1,294 @@
+<!--Project DB Ver 2.03 02/12/02-->
+<PSOC_PROJECT>
+	<!--We define a configuration as a customer designed architectural arrangement of our User Modules.-->
+	<CONFIGURATION ATTR="This is an attr">
+		<PLACED_USER_MODULE_LIST>
+		</PLACED_USER_MODULE_LIST>
+	</CONFIGURATION>
+	<APPLICATION>
+		<FILE_LIST>
+			<SOURCE_FILE_LIST>
+				<SOURCE_FILE NAME="main.c" TYPE="UserSourceModule" LANGUAGE="C"/>
+				<SOURCE_FILE NAME="flashsecurity.txt" TYPE="TextFile" LANGUAGE="" OVERLAY_NAME=""/>
+				<SOURCE_FILE NAME="pwm_ph_bint.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="pwm_ph_cint.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="psocapi.h" TYPE="LibraryIncludeFile" LANGUAGE="C" OVERLAY_NAME="" FILEMODTIME="1243296" LIBTIME="1"/>
+				<SOURCE_FILE NAME="psocapi.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="1243364" LIBTIME="1"/>
+				<SOURCE_FILE NAME="flashtemp_1int.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="count_iint.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="89025280" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="pwm_ph_aint.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="psocdynamic.h" TYPE="LibraryIncludeFile" LANGUAGE="C" OVERLAY_NAME="" FILEMODTIME="1243376" LIBTIME="1"/>
+				<SOURCE_FILE NAME="adcint.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="isqrt.c" TYPE="UserSourceModule" LANGUAGE="C" OVERLAY_NAME=""/>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<SOURCE_FILE NAME="refagnd.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="AGND" FILEMODTIME="54507008" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="refagnd.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="AGND" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="refagnd.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="AGND" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="adc.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="72565248" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="adc.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="adc.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="amux4_1.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="53590016" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="amux4_1.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="amux4_1.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="amp_vac.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="80019712" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="amp_vac.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="amp_vac.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="count_i.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="count_i.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="count_i.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="flashtemp_1.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="87920640" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="flashtemp_1.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="flashtemp_1.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="lpf2_i.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="98843648" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="lpf2_i.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="lpf2_i.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="limit_i.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="86691584" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="limit_i.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="limit_i.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="pga_1.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="89664768" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="pga_1.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="pga_1.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="pwm_ph_a.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="85002752" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="pwm_ph_a.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="pwm_ph_a.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="pwm_ph_b.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="71005952" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="pwm_ph_b.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="pwm_ph_b.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="pwm_ph_c.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="69562368" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="pwm_ph_c.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="-256"/>
+				<SOURCE_FILE NAME="pwm_ph_c.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="31" LIBTIME="7071560"/>
+				<SOURCE_FILE NAME="psocconfigtbl.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="25515496" LIBTIME="1243380"/>
+				<SOURCE_FILE NAME="psocdynamic.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="81740168" LIBTIME="1243840"/>
+				<SOURCE_FILE NAME="psocdynamic.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="0" LIBTIME="1243840"/>
+				<SOURCE_FILE NAME="psocgpioint.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="112" LIBTIME="1243840"/>
+				<SOURCE_FILE NAME="psocgpioint.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="112" LIBTIME="1243840"/>
+				<SOURCE_FILE NAME="psocconfig.asm" TYPE="LibrarySource" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="80669056" LIBTIME="1243840"/>
+				<SOURCE_FILE NAME="boot.asm" TYPE="UserSourceModule" LANGUAGE="ASM" OVERLAY_NAME=""/>
+				<SOURCE_FILE NAME="globalparams.inc" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="25513668" LIBTIME="1243840"/>
+				<SOURCE_FILE NAME="globalparams.h" TYPE="LibraryIncludeFile" LANGUAGE="ASM" OVERLAY_NAME="" FILEMODTIME="25513668" LIBTIME="1243840"/>
+			</SOURCE_FILE_LIST>
+			<LIB_FILE_LIST>
+				<LIB_FILE NAME="libPSoC.a" TYPE="UserLibrary">
+				</LIB_FILE>
+			</LIB_FILE_LIST>
+		</FILE_LIST>
+		<BUILD_SETTINGS>
+			<BUILD COMPILER="IC"/>
+		</BUILD_SETTINGS>
+		<MISC>
+			<WINDOWPOSITIONS>
+				<WINDOWPOSITION x="0" y="0" cx="100" cy="1000">
+				</WINDOWPOSITION>
+			</WINDOWPOSITIONS>
+			<OPEN_WINDOWS>
+				<WINDOW NAME="xxx">
+				</WINDOW>
+			</OPEN_WINDOWS>
+		</MISC>
+	</APPLICATION>
+	<PROJECT_SETTINGS>
+		<SECTION SECTION_NAME="Linker Settings" LIBS="" LIB_PATH="" ENABLE_ALIGN_SHIFT="0" ENABLE_24MHZ_WARNING="0" RELOC_ADDR_START="272"/>
+		<SECTION SECTION_NAME="Compiler Settings" MACRO_DEFINES="" MACRO_UNDEFINES="" ENABLE_MAC="0" ENABLE_MATH_OPTIMIZE="1" ENABLE_CODE_COMPRESSOR="0" ENABLE_UM_DEAD_CODE_ELIM="0" HYDRA="0" INCLUDE_PATH="C:\PROGRA~1\CYPRES~1\PSOCDE~1\tools\include\CY8C27~1"/>
+		<SECTION SECTION_NAME="Programmer Settings" RESET_DEVPROGRAMMER="1"/>
+		<SECTION SECTION_NAME="Device Editor Settings" SUPPRESS_UPDATEUMSDLG="0" CONFIGINIT_TYPE_LOOP="1" ENABLE_INTERRUPT_GEN_CTRL="0" ENABLE_CONFIGNAME_PREPEND="1"/>
+		<SECTION SECTION_NAME="Debugger Settings" RESET_ICEPOWERPOD_ENABLE="0"/>
+	</PROJECT_SETTINGS>
+</PSOC_PROJECT>
+<!--Files Types:
+	MainDirectory,	
+	UserSourceModule, 
+	UserIncludeFile
+	UserLibrary,	
+	LibrarySource,	
+	IntermediateBuild,
+	IntermediateError,	
+	IntermediateDebug
+-->

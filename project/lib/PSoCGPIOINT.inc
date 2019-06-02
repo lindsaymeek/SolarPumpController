@@ -1,0 +1,70 @@
+; AnalogColumn_InputMUX_1 address and mask equates
+AnalogColumn_InputMUX_1_Data_ADDR:	equ	0h
+AnalogColumn_InputMUX_1_DriveMode_0_ADDR:	equ	100h
+AnalogColumn_InputMUX_1_DriveMode_1_ADDR:	equ	101h
+AnalogColumn_InputMUX_1_DriveMode_2_ADDR:	equ	3h
+AnalogColumn_InputMUX_1_GlobalSelect_ADDR:	equ	2h
+AnalogColumn_InputMUX_1_IntCtrl_0_ADDR:	equ	102h
+AnalogColumn_InputMUX_1_IntCtrl_1_ADDR:	equ	103h
+AnalogColumn_InputMUX_1_IntEn_ADDR:	equ	1h
+AnalogColumn_InputMUX_1_MASK:	equ	1h
+; AnalogColumn_InputMUX_0 address and mask equates
+AnalogColumn_InputMUX_0_Data_ADDR:	equ	0h
+AnalogColumn_InputMUX_0_DriveMode_0_ADDR:	equ	100h
+AnalogColumn_InputMUX_0_DriveMode_1_ADDR:	equ	101h
+AnalogColumn_InputMUX_0_DriveMode_2_ADDR:	equ	3h
+AnalogColumn_InputMUX_0_GlobalSelect_ADDR:	equ	2h
+AnalogColumn_InputMUX_0_IntCtrl_0_ADDR:	equ	102h
+AnalogColumn_InputMUX_0_IntCtrl_1_ADDR:	equ	103h
+AnalogColumn_InputMUX_0_IntEn_ADDR:	equ	1h
+AnalogColumn_InputMUX_0_MASK:	equ	2h
+; AnalogOutBuf_3 address and mask equates
+AnalogOutBuf_3_Data_ADDR:	equ	0h
+AnalogOutBuf_3_DriveMode_0_ADDR:	equ	100h
+AnalogOutBuf_3_DriveMode_1_ADDR:	equ	101h
+AnalogOutBuf_3_DriveMode_2_ADDR:	equ	3h
+AnalogOutBuf_3_GlobalSelect_ADDR:	equ	2h
+AnalogOutBuf_3_IntCtrl_0_ADDR:	equ	102h
+AnalogOutBuf_3_IntCtrl_1_ADDR:	equ	103h
+AnalogOutBuf_3_IntEn_ADDR:	equ	1h
+AnalogOutBuf_3_MASK:	equ	4h
+; AnalogOutBuf_0 address and mask equates
+AnalogOutBuf_0_Data_ADDR:	equ	0h
+AnalogOutBuf_0_DriveMode_0_ADDR:	equ	100h
+AnalogOutBuf_0_DriveMode_1_ADDR:	equ	101h
+AnalogOutBuf_0_DriveMode_2_ADDR:	equ	3h
+AnalogOutBuf_0_GlobalSelect_ADDR:	equ	2h
+AnalogOutBuf_0_IntCtrl_0_ADDR:	equ	102h
+AnalogOutBuf_0_IntCtrl_1_ADDR:	equ	103h
+AnalogOutBuf_0_IntEn_ADDR:	equ	1h
+AnalogOutBuf_0_MASK:	equ	8h
+; AnalogOutBuf_2 address and mask equates
+AnalogOutBuf_2_Data_ADDR:	equ	0h
+AnalogOutBuf_2_DriveMode_0_ADDR:	equ	100h
+AnalogOutBuf_2_DriveMode_1_ADDR:	equ	101h
+AnalogOutBuf_2_DriveMode_2_ADDR:	equ	3h
+AnalogOutBuf_2_GlobalSelect_ADDR:	equ	2h
+AnalogOutBuf_2_IntCtrl_0_ADDR:	equ	102h
+AnalogOutBuf_2_IntCtrl_1_ADDR:	equ	103h
+AnalogOutBuf_2_IntEn_ADDR:	equ	1h
+AnalogOutBuf_2_MASK:	equ	10h
+; AnalogColumn_InputMUX_2 address and mask equates
+AnalogColumn_InputMUX_2_Data_ADDR:	equ	0h
+AnalogColumn_InputMUX_2_DriveMode_0_ADDR:	equ	100h
+AnalogColumn_InputMUX_2_DriveMode_1_ADDR:	equ	101h
+AnalogColumn_InputMUX_2_DriveMode_2_ADDR:	equ	3h
+AnalogColumn_InputMUX_2_GlobalSelect_ADDR:	equ	2h
+AnalogColumn_InputMUX_2_IntCtrl_0_ADDR:	equ	102h
+AnalogColumn_InputMUX_2_IntCtrl_1_ADDR:	equ	103h
+AnalogColumn_InputMUX_2_IntEn_ADDR:	equ	1h
+AnalogColumn_InputMUX_2_MASK:	equ	20h
+; AnalogColumn_InputMUX_3 address and mask equates
+AnalogColumn_InputMUX_3_Data_ADDR:	equ	0h
+AnalogColumn_InputMUX_3_DriveMode_0_ADDR:	equ	100h
+AnalogColumn_InputMUX_3_DriveMode_1_ADDR:	equ	101h
+AnalogColumn_InputMUX_3_DriveMode_2_ADDR:	equ	3h
+AnalogColumn_InputMUX_3_GlobalSelect_ADDR:	equ	2h
+AnalogColumn_InputMUX_3_IntCtrl_0_ADDR:	equ	102h
+AnalogColumn_InputMUX_3_IntCtrl_1_ADDR:	equ	103h
+AnalogColumn_InputMUX_3_IntEn_ADDR:	equ	1h
+AnalogColumn_InputMUX_3_MASK:	equ	40h

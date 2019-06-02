@@ -1,0 +1,4 @@
+-F0x30 -g -blit:0x110.0x3fff 
+ -bdata:0.0xff  -o"output/pump" 
+ ./obj/isqrt.o ./obj/main.o   
+ E:/pump/pump/lib/libPSoc.a -LC:/PROGRA~1/CYPRES~1/PSOCDE~1/tools C:/PROGRA~1/CYPRES~1/PSOCDE~1/tools/lib/CY8C27000/cms.a C:/PROGRA~1/CYPRES~1/PSOCDE~1/tools/stackzone.o 
